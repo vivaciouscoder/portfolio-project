@@ -45,25 +45,23 @@ h2 {
 .homepage-hero h1 {
   font-size: 96px;
   font-weight: bold;
-  color: black;
 }
 
 .homepage-hero h2 {
   font-weight: normal;
   font-size: 24px;
   line-height: 2;
-  color: black;
 }
 
 .btn-branding {
-  padding: 15px 30px;
-  background-color: var(--branding-color);
-  color: white;
-  margin-top: 35px;
-
   font-size: 18px;
   font-weight: 500;
   line-height: 27px;
+  margin-top: 35px;
+  padding: 15px 30px;
+
+  color: white;
+  background-color: var(--branding-color);
   border-radius: 4px;
 }
 
@@ -80,59 +78,45 @@ h2 {
   text-align: left;
   font-size: 16px;
   font-weight: 500;
-  color: #272142;
-
   line-height: 30px;
-  margin-top: 50px;
+  color: #272142;
 }
 
 .btn-branding-outline {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
-  border-radius: 4px;
-  padding: 15px 30px;
-
   font-size: 18px;
   font-weight: 500;
-  margin-top: 30px;
   line-height: 27px;
+  color: var(--branding-color);
+  padding: 15px 30px;
+  margin-top: 30px;
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
 }
 
 .btn-branding-outline:hover {
-  color: var(--branding-color);
   border: 1px solid var(--branding-color);
-  border-radius: 4px;
-  color: #272142;
 }
 
-.aboutpage-hero {
-  padding: 160px 120px;
+.content-container {
+  padding: 160px 50px;
 }
 
-.aboutpage-hero h1 {
+.content-container h1 {
   font-size: 64px;
   font-weight: bold;
 }
 
-.aboutpage-hero h2 {
+.content-container h2 {
   font-family: var(--default-font-family);
   font-size: 18px;
 }
-.aboutpage-hero p {
-  text-align: left;
+.content-container p {
   line-height: 30px;
   color: #212529;
 }
 
-.about-description {
-  padding: 10px;
-  margin-top: 30px;
-  margin-left: -20px;
-  margin-right: 10px;
-}
-.btn-aboutpage {
-  margin-left: -15px;
-  margin-top: 15px;
+.content {
+  padding: 40px 40px 20px 0;
 }
 
 @media (max-width: 900px) {
@@ -165,34 +149,34 @@ h2 {
     margin: 0;
     padding: 0;
   }
-
   .project-description p {
     text-align: center;
   }
 
-  .aboutpage-hero {
-    margin-left: 10px;
-    padding: 0 20px 0 20px;
+  .container {
+    margin: 0;
+    padding: 0;
   }
 
-  .aboutpage-hero h1 {
-    padding: 20px;
+  .content-container h1 {
+    padding: 0 30px;
     font-size: 64px;
     line-height: 80px;
   }
 
-  .aboutpage-hero h2 {
+  .content-container h2 {
     font-size: 18px;
     line-height: 30px;
   }
-  .aboutpage-hero p {
+  .content p {
     font-size: 16px;
-    text-align: center;
+    text-align: center !important;
     line-height: 30px;
+    padding: 0 10px 0 30px;
   }
 
   .btn-aboutpage {
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
 }
