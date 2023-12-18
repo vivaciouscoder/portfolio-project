@@ -130,6 +130,10 @@ h2 {
   margin-left: -20px;
   margin-right: 10px;
 }
+.btn-aboutpage {
+  margin-left: -15px;
+  margin-top: 15px;
+}
 
 @media (max-width: 900px) {
   body {
@@ -164,5 +168,31 @@ h2 {
 
   .project-description p {
     text-align: center;
+  }
+
+  .aboutpage-hero {
+    margin-left: 10px;
+    padding: 0 20px 0 20px;
+  }
+
+  .aboutpage-hero h1 {
+    padding: 20px;
+    font-size: 64px;
+    line-height: 80px;
+  }
+
+  .aboutpage-hero h2 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .aboutpage-hero p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+  }
+
+  .btn-aboutpage {
+    margin-top: 20px;
+    margin-bottom: 40px;
   }
 }
