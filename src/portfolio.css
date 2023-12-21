@@ -54,6 +54,61 @@ nav li a:hover {
   color: var(--branding-color);
 }
 
+footer div {
+  background-color: var(--secondary-color);
+  margin: 70px;
+  border-radius: 15px;
+}
+
+footer li {
+  list-style: none;
+}
+footer ul {
+  padding: 10px 120px;
+}
+
+footer h1 {
+  margin-top: 15px;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+footer .contact-icons {
+  margin-top: 0;
+  background-color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.contact-icons i {
+  padding: 10px;
+}
+
+a i {
+  color: var(--branding-color);
+}
+
+a i:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+
+i {
+  background-color: var(--secondary-color);
+  border-radius: 100px;
+  margin: 20px;
+}
+
+.email {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+}
+
 .homepage-hero {
   background-color: var(--secondary-color);
   padding: 160px 20px;
@@ -147,8 +202,21 @@ nav li a:hover {
     text-align: center;
   }
 
+  h2 {
+    font-size: 44px;
+  }
+
   .homepage-hero {
     padding: 80px 20px;
+  }
+
+  footer div {
+    padding: 5px 0;
+  }
+
+  footer h1 {
+    font-size: 24px;
+    margin-top: 30px;
   }
 
   .homepage-hero h1 {
@@ -158,10 +226,6 @@ nav li a:hover {
 
   .homepage-hero h2 {
     line-height: 1.5;
-  }
-
-  h2 {
-    font-size: 44px;
   }
 
   .project-description {
@@ -184,5 +248,10 @@ nav li a:hover {
   .content p {
     text-align: center !important;
     line-height: 30px;
+  }
+
+  .email {
+    margin-top: 60px;
+    font-size: 18px;
   }
 }
