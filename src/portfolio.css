@@ -54,7 +54,7 @@ nav li a:hover {
   color: var(--branding-color);
 }
 
-footer div {
+footer .contact-box {
   background-color: var(--secondary-color);
   margin: 70px;
   border-radius: 15px;
@@ -99,7 +99,7 @@ i {
   margin: 20px;
 }
 
-.email {
+.email-link {
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -107,6 +107,10 @@ i {
   color: black;
   font-size: 24px;
   font-weight: 500;
+}
+
+.email-link:hover {
+  color: var(--branding-color);
 }
 
 .homepage-hero {
@@ -210,7 +214,7 @@ i {
     padding: 80px 20px;
   }
 
-  footer div {
+  footer .contact-box {
     padding: 5px 0;
   }
 
@@ -250,7 +254,7 @@ i {
     line-height: 30px;
   }
 
-  .email {
+  .email-link {
     margin-top: 60px;
     font-size: 18px;
   }
