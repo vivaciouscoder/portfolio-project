@@ -56,7 +56,7 @@ nav li a:hover {
 
 footer .contact-box {
   background-color: var(--secondary-color);
-  margin: 70px;
+  margin: 70px 70px 0;
   border-radius: 15px;
 }
 
@@ -115,7 +115,7 @@ i {
 
 .homepage-hero {
   background-color: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 80px 20px;
   text-align: center;
 }
 
@@ -180,7 +180,7 @@ i {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px 0px 20px;
 }
 
 .content h1 {
@@ -208,10 +208,6 @@ i {
 
   h2 {
     font-size: 44px;
-  }
-
-  .homepage-hero {
-    padding: 80px 20px;
   }
 
   footer .contact-box {
