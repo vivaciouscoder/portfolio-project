@@ -196,10 +196,6 @@ i {
   font-size: 14px;
 }
 
-.content {
-  margin: 30px;
-}
-
 @media (max-width: 900px) {
   body {
     width: 100%;
@@ -253,5 +249,9 @@ i {
   .email-link {
     margin-top: 60px;
     font-size: 18px;
+  }
+
+  #viv-pic {
+    margin-top: 30px;
   }
 }
