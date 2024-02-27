@@ -72,6 +72,15 @@ footer ul {
   padding: 10px 120px;
 }
 
+footer p {
+  font-size: 18px;
+}
+
+footer p.source-code {
+  color: gray;
+  font-size: 12px;
+}
+
 footer h6 {
   margin-top: 15px;
   font-size: 34px;
@@ -134,11 +143,11 @@ i {
 
 .homepage-hero p {
   font-weight: bold;
-  font-size: 36px;
+  font-size: 30px;
   color: #272142;
 }
 .homepage-hero h1 {
-  font-size: 64px;
+  font-size: 44px;
   font-weight: bold;
 }
 
@@ -198,7 +207,7 @@ i {
 }
 
 .content h1 {
-  font-size: 64px;
+  font-size: 44px;
   font-weight: bold;
 }
 
@@ -208,6 +217,16 @@ i {
 }
 .content p {
   font-size: 14px;
+}
+
+div .project-pic {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+div.work-page {
+  background-color: var(--secondary-color);
 }
 
 @media (max-width: 900px) {
@@ -265,7 +284,7 @@ i {
     font-size: 18px;
   }
 
-  #viv-pic {
+  #vida-pic {
     margin-top: 30px;
   }
 }
