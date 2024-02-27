@@ -1,8 +1,8 @@
 :root {
   --header-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
-  --branding-color: #6b62ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #e4ab29;
+  --secondary-color: #f9f9f9;
 }
 
 body {
@@ -19,7 +19,7 @@ h6 {
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 36px;
   font-weight: bold;
 }
 
@@ -54,6 +54,11 @@ nav li a:hover {
   color: var(--branding-color);
 }
 
+div.img-style {
+  background-color: var(--secondary-color);
+  padding: 120px 60px;
+}
+
 footer .contact-box {
   background-color: var(--secondary-color);
   margin: 70px 70px 0;
@@ -67,9 +72,9 @@ footer ul {
   padding: 10px 120px;
 }
 
-footer h1 {
+footer h6 {
   margin-top: 15px;
-  font-size: 48px;
+  font-size: 34px;
   font-weight: bold;
 }
 
@@ -82,6 +87,14 @@ footer .contact-icons {
 
 .contact-icons i {
   padding: 10px;
+}
+
+a {
+  color: var(--branding-color);
+}
+
+a:hover {
+  color: #212529;
 }
 
 a i {
@@ -125,7 +138,7 @@ i {
   color: #272142;
 }
 .homepage-hero h1 {
-  font-size: 96px;
+  font-size: 64px;
   font-weight: bold;
 }
 
@@ -154,6 +167,7 @@ i {
 
 .project-description {
   padding: 120px 60px;
+  border: 4px solid var(--secondary-color);
 }
 
 .project-description p {
